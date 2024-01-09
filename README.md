@@ -1,18 +1,27 @@
-# Salesforce DX Project: Next Steps
+# IMC
 
-Now that you’ve created a Salesforce DX project, what’s next? Here are some documentation resources to get you started.
+Aplicativo em LWC criado para fazer o cálculo de índice de massa corporal usando os recursos de Lightning Web Components, objetos customizados do Salesforce e procurando manter um front-end amigável.
 
-## How Do You Plan to Deploy Your Changes?
+Aqui você vai obter o código inicial e quando o projeto for concluído estará presente no branch **final**.
 
-Do you want to deploy a set of changes, or create a self-contained application? Choose a [development model](https://developer.salesforce.com/tools/vscode/en/user-guide/development-models).
+### Recursos
 
-## Configure Your Salesforce DX Project
+* Calcular o índice IMC no front end
+* Armazenar o nome, idade, e-mail e medições
+    * Altura
+    * Peso
+* Calcular o IMC de forma automatica
+* A partir do valor do IMC, indicar o status da pessoa de acordo com seu peso ideal (valores podem ser afetados pela idade )
+    * Muito abaixo do ideal
+    * Abaixo do ideal
+    * Nível ideal
+    * Acima do ideal
+    * Obesidade
+    * Obesidade Severa
+    * Obesidade Mórbida
+* Registrar os valores recebidos e calculados
+* Permitir que o usuário consulte suas informações
+    * Após a consulta o usuário poderá editar ou até mesmo apagar suas informações.
+* Aplicativo precisa estar responsivo.
 
-The `sfdx-project.json` file contains useful configuration information for your project. See [Salesforce DX Project Configuration](https://developer.salesforce.com/docs/atlas.en-us.sfdx_dev.meta/sfdx_dev/sfdx_dev_ws_config.htm) in the _Salesforce DX Developer Guide_ for details about this file.
-
-## Read All About It
-
-- [Salesforce Extensions Documentation](https://developer.salesforce.com/tools/vscode/)
-- [Salesforce CLI Setup Guide](https://developer.salesforce.com/docs/atlas.en-us.sfdx_setup.meta/sfdx_setup/sfdx_setup_intro.htm)
-- [Salesforce DX Developer Guide](https://developer.salesforce.com/docs/atlas.en-us.sfdx_dev.meta/sfdx_dev/sfdx_dev_intro.htm)
-- [Salesforce CLI Command Reference](https://developer.salesforce.com/docs/atlas.en-us.sfdx_cli_reference.meta/sfdx_cli_reference/cli_reference.htm)
+As informações, cálculos e restrições para atender aos requisitos acima estão disponíveis [aqui](https://pt.wikipedia.org/wiki/%C3%8Dndice_de_massa_corporal)
